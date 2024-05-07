@@ -21,6 +21,8 @@ h4 {
 }
 
 .App {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Lato", sans-serif;
   min-height: 100vh;
   --input-width: 95%;

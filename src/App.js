@@ -116,7 +116,7 @@ function App() {
       <ToastContainer />
       <h1 className="mainHeading">Expense Tracker</h1>
       <div className="App">
-        <ExpenseForm
+        <ExpenseForm 
           addExpense={addExpense}
           expenseToUpdate={expenseToUpdate}
           updateExpense={updateExpense}
